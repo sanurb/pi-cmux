@@ -1,0 +1,26 @@
+{
+  "name": "@sanurb/pi-cmux",
+  "version": "1.0.0",
+  "description": "Daily-use Pi + cmux integration: status, notifications, safe workspace helpers",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanurb/pi-cmux"
+  },
+  "pi": {
+    "extensions": [
+      "./cmux.ts"
+    ],
+    "skills": [
+      "./skills"
+    ]
+  },
+  "dependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*",
+    "@sinclair/typebox": "*"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  }
+}
